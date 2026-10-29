@@ -1,0 +1,9 @@
+snowflake:
+  user: dbtservice
+  private_key_path: D:/gitRepos/ecommerce/dbt_ecommerce/rsa_key.p8
+  private_key_passphrase: Nikhil@01
+  account: xobztlh-dt68355
+  warehouse: SNOWFLAKE_LEARNING_WH
+  database: ECOMMERCE_DB
+  role: ACCOUNTADMIN
+  schema: ANALYTICS

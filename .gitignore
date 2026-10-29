@@ -1,0 +1,9 @@
+*.der
+*.p8
+*.pub
+.venv/
+logs/
+target/
+__pycache__/*
+*.pyc
+uv.lock
