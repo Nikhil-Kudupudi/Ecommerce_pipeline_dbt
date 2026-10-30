@@ -5,7 +5,13 @@ from airflow import DAG
 from airflow.providers.standard.operators.bash import BashOperator
 # pip install apache-airflow==3.3.2 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.3.2/constraints-3.12.txt"
 
-
+# smtp_user = email # add to airflow.cfg
+# smtp_password = googe app password # add to airflow.cfg
+#edit in airflow.cfg
+# smtp_port = 587
+# disable_ssl = True
+# smtp_mail_from = email
+# smtp_host = smtp.gmail.com 
 default_args ={
     "owner": "airflow",
     "retries": 0,
