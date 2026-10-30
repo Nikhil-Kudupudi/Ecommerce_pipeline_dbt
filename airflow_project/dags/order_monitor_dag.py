@@ -9,6 +9,7 @@ from airflow.providers.standard.operators.bash import BashOperator
 default_args ={
     "owner": "airflow",
     "retries": 0,
+    'email': ['nikhilkudupudi@gmail.com'], 
     "email_on_failure": True,
     "email_on_retry": False,
     "retry_delay": timedelta(minutes=1)
