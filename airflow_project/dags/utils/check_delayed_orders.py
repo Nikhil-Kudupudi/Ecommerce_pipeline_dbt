@@ -17,8 +17,7 @@ def main():
     try:
         conn = snowflake.connector.connect(
             user=config['user'],
-            private_key_path=config['private_key_path'],
-            private_key_passphrase=config['private_key_passphrase'],
+            private_key_file=config['private_key_path'],
             account=config['account'],
             warehouse=config['warehouse'],
             database=config['database'],

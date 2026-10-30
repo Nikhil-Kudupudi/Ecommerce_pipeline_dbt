@@ -1,1 +1,1 @@
-SELECT * FROM raw.shipments;
+SELECT * FROM raw.shipments
